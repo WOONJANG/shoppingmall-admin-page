@@ -5,7 +5,7 @@
 		String URL = "jdbc:mysql://umj7-009.cafe24.com/jangwoon0518";
 // 		String URL = "jdbc:mysql://localhost:3306/jangwoon0518";
 		String DBID = "jangwoon0518";
-		String DBPW = "boyun981124@";
+		String DBPW = "";
 		Class.forName(DRIVER);
 		CON = DriverManager.getConnection(URL,DBID,DBPW);
 //  		out.print("<script>alert('DB CONNECTION SUCCESS')</script>");
